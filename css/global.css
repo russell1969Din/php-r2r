@@ -1,0 +1,41 @@
+.body {
+        background-color:#B5B5B5;
+        font-family:verdana;
+        font-size:18px;
+        color:#1A5180;
+}
+
+.cursor-pointer{
+        cursor: pointer;
+} 
+
+textarea, input[type=text], input[type=password] {
+        width: 100%;
+        box-sizing: border-box;
+        font-family:verdana;
+        font-size:18px;
+        /*background-color:yellow;*/
+}
+
+
+.buttonDesk {
+        border-top:dotted 1px #1A5180;
+        padding-top:5px;
+}
+
+.progressNote {
+        font-family:verdana;
+        font-size:50px;
+}
+
+.nSelectPrivate {
+        font-size: 50px;
+}
+
+#dbgDesk {
+        font-family:verdana;
+        font-size:14px;
+        display:none;
+}
+
+

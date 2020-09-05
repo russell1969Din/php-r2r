@@ -1,0 +1,194 @@
+* {box-sizing: border-box;}
+.open-button {
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 30px;
+        right: 25px;
+        width: 320px;
+        border-radius:5px;
+        z-index: 9;
+}
+.btn-action {
+        width:100%;
+        border-radius:5px;
+}
+.chat-popup {
+        display: none; /* temporary set - to do*/
+        position: fixed;
+        bottom: 18px;
+        right: 10px;
+        border: inset #f1f1f1;
+        z-index: 9;
+        border-radius: 10px;
+}
+.form-container {
+        max-width: 350px;
+        padding: 10px;
+        background-color: white;
+        background-color:#BDBDBD;
+}
+.form-container textarea {
+        width: 100%;
+        padding: 9px;
+        margin: 5px 0 0px 0;
+        border: dotted 1px #000;
+        background-color:#D2D2D2;
+        border-radius: 10px;
+        resize: none;
+        min-height: 10px;
+        font-family:verdana;
+        font-size:16px;
+        font-weight:normal;
+        color:#000;
+        
+}
+.msgDelete {
+        cursor:pointer;
+        font-size:10px;
+        color:#FF8585;
+}
+.msgHead {
+        background-color:#3276B1;
+        color:#fff;
+        height:32px;
+        font-family:verdana;
+        font-size:16px;
+        font-weight:normal;
+        padding-top:5px;
+        text-align:center;
+}
+.msgUser {
+        background-color:#BDBDBD;
+        color:#276091;
+        font-weight:700;  
+        font-size:14px;
+}
+.one {
+        color:#938C8C;
+        height:20px;
+        padding-top:1px;
+}
+
+.msgSel {
+        border-top:dotted 1px #276091;
+}
+
+#messages-in {          
+        width: 100%;
+        height:350px;
+        border: dotted 1px #000;
+        background:#D2D2D2;
+        border-radius: 10px;
+        font-size:15px;
+        overflow: scroll; 
+        overflow-x: auto;
+}
+.msg-timeStamp {
+        font-weight:700;
+        color:#909090;
+        font-size:12px;
+}
+.form-container textarea:focus {
+        outline: none;
+}
+.form-container .cancel {
+        background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+}
+.userMsg-newLine {
+        clear:both;
+        width:100%;
+}
+.userMsg-endLine {
+        clear:both;
+        width:100%;
+        height:10px;
+}
+.userPerson-in {
+        float:left;
+        width:14%;
+        height:45px;
+        position: relative;
+}
+.userPerson-online {
+        position:absolute;
+        bottom:0px;
+        right:0px;
+        color:#00FF0C;
+        font-size:10px;
+        font-weight:bold;
+        cursor:pointer
+}
+.userPerson-noPhoto {
+        float:left;
+        width:14%;
+        height:10px;
+}
+.userMsg-start {
+        border:inset 2px #fff;
+        float:left;
+        background-color:#087600;
+        color:#fff;
+        max-width:73%;
+        /*min-height:60px;*/
+        border-radius:10px;
+        margin-left:3px;
+
+}
+.userMsg-in {
+        border:inset 2px #fff;
+        float:left;
+        background-color:#C8C8C8;
+        max-width:73%;
+        /*min-height:60px;*/
+        border-radius:10px;
+        margin-left:3px;
+}
+.userMsg-in-del {
+        border:inset 2px #fff;
+        float:left;
+        background-color:#C3C3C3;
+        color:#8D8D8D;
+        max-width:73%;
+        margin-left:3px;
+        border-radius:10px;
+}
+.delete-msg {
+        background-color:silver;
+}
+.userMsg-out {
+        border:inset 2px #fff;
+        float:right;
+        background-color:#3276B1;
+        color:#fff;
+        max-width:70%;
+        border-radius:10px;
+}
+.userMsg-out-del {
+        border:inset 2px #fff;
+        float:right;
+        background-color:#C3C3C3;
+        color:#8D8D8D;
+        max-width:70%;
+        border-radius:10px;
+}
+
+
+.userPerson-out {
+        float:left;
+        width:20%;
+        height:45px;
+}  
+
+.userPerson-photo {
+        width:40px;
+        cursor:pointer;
+}
+
+.userChat-photo {
+        width:30px;
+        cursor:pointer;
+}

@@ -1,0 +1,109 @@
+.menuItem {
+        clear:both;
+}
+
+#fluidTopNav {
+        background-color: #3276B1;
+}
+
+.topnav {
+        overflow: hidden;
+        background-color: #3276B1;
+        
+}
+
+.topnav a {
+        float: left;
+        display: block;
+        color: #B5B5B5;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family:verdana;
+        font-size: 24px;        
+}
+
+
+.topnav a:hover {        
+        color:#D8D8D8;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.topnav a:visited {
+        color: #B5B5B5;
+        text-decoration: none;
+}
+
+.topnav a.active {
+        color: #fff;         
+        text-decoration: none;
+        font-weight:bold;
+}
+
+.topnav .icon {
+        display: none;
+        color:#B5B5B5;
+}
+
+/*600*/
+@media screen and (max-width: 610px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+        float: right;
+        display: block;
+        }
+}
+
+@media screen and (max-width: 610px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+        }
+        .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+        }
+}
+
+
+.subMenuItem {
+        height:35px;
+        padding-top:6px;
+        padding-left:10px;
+        border-bottom:1px dotted #7F7F7F;
+}
+
+.subMenuText a {
+        text-decoration:none;
+        color:#6A6A6A;
+        font-family:verdana;
+        font-size:15px;
+}
+
+.subMenuTextOn a {
+        text-decoration:none;
+        color:#276091;
+        font-weight:bold;
+        font-family:verdana;
+        font-size:15px;
+}
+
+.subMenuText a:hover {        
+        color:#3276B1;
+}
+
+.subMenu a.active {
+        color: #cc0000;  
+        text-decoration: none;
+        font-weight:bold;
+}
+
+.subMenu  .href {
+        font-weight:bold;
+        color:#3276B1;
+        text-decoration:none;
+}

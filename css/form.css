@@ -1,0 +1,69 @@
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#form_head {
+        background-color: #3276B1;
+        color:#fff;
+}
+
+
+#form_parentHead {
+        font-size:13px;
+        font-weight:900;
+        background-color: #A8A8A8;
+        color:#fff;
+        height:20px;
+}
+
+
+.form_note {
+        font-family:verdana;
+        font-size:16px;
+        font-weight:bold;
+}
+
+.form_text {
+        font-family:verdana;
+        background-color:#E9E9E9;
+        color:#3276B1;
+        font-size:5px;
+        border-radius:10px;
+        font-weight:500;
+}
+
+.form_error {
+        height:20px;
+        line-height:14px;
+        font-size:14px;
+        padding-top:2px;
+        font-weight:bold;
+}
+
+.form_input_desk {
+        height:70px;
+}
+
+.form_checks {
+        font-family:verdana;
+        font-size:16px;
+        font-weight:bold;
+        height:70px;
+}
+
+.formCentre {
+        margin-left:auto;
+        margin-right:auto;
+        width:0px;
+}
+
+.formMenuHead {
+        background-color:#3276B1;
+        color:#fff;
+        font-weight:normal;
+}
+
+
+.formBold {
+        font-weight:700;
+}  

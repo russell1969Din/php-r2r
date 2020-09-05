@@ -1,0 +1,78 @@
+.tableHead {
+        font-family:verdana;
+        background-color:#1A5180;
+        color:#fff;
+        font-size:15px;
+        font-weight:bold;   
+}
+
+.tableLine {
+        font-family:verdana;
+        font-size:15px;
+        font-weight:700;
+        background-color:!transparent;
+}
+
+.tableEvenLine {
+        background-color:#A8A8A8;
+}
+
+.tableUnderLine {
+        border-bottom:dotted 1px #1A5180;
+}
+
+.tableColumn {
+        height:40px;
+        color:#1A5180;
+}
+
+.tableColumn a {
+        color:#1A5180;
+        text-decoration:underline;
+}
+
+.tableColumn a:hover {
+        color:#1A5180;
+        text-decoration:underline;
+        cursor:pointer;
+}
+
+.tableWarning {
+        color:#cc0000;
+}
+
+.tableDelete {
+        color:#1A5180;
+}
+
+.tableDelete a {
+        color:#cc0000;
+}
+
+.tableDelete a:hover {
+        color:#cc0000;
+        text-decoration:underline;
+        cursor:pointer;
+}
+
+
+.tableOnlyMore768 {
+        display:inline;
+}
+
+.tableOnlyMore600 {
+        display:inline;
+}
+
+@media screen and (max-width: 600px) {
+        .tableOnlyMore600 {display:none;}
+}
+
+@media screen and (max-width: 767px) {
+        .tableOnlyMore768 {display:none;}
+}
+                   
+
+@media screen and (max-width: 1024px) {
+        .tableOnlyMore1024 {display:none;}
+}

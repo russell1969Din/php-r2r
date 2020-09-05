@@ -1,0 +1,8 @@
+@import url(bootstrap.min.css);
+
+
+.smartsearch .smartElement button{width:100%!important}
+form.smartsearch .element{float:left;width:100%}
+.ui-helper-clearfix ul li a{color:#333;font-weight:600;font-size:12px}
+.ui-helper-clearfix ul li a:hover{color:#08c}
+

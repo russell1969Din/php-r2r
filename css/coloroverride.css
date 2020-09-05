@@ -1,0 +1,28 @@
+.advert_submit input,.clanok form.formular input.submit,.hypo_template .submit,.mainButtonColor,.searchTop .slctr_submit .submit{background-image:#642A8E;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#642A8E', endColorstr='#571177', GradientType=0 )}
+.advert_submit input,.boxicons_title,.clanok form.formular input.submit,.clanok h1,.detail_inzeratu,.detail_m,.hypo_template .submit,.kontakt_title,.listingtitle,.mainButtonBackground,.mainButtonColor,.mak_title,.navbar-default,.ponuka_m,.ponuka_title_in,.price_title,.projekty_desc_title,.searchTop .slctr_submit .submit{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#642A8E', endColorstr='#571177', GradientType=0 )}
+.mainBgColor{background-color:#fff}
+.mainBorderColor{border-color:#642A8E!important}
+.mainButtonColor{background-color:#642A8E;background-image:-moz-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#642A8E),color-stop(100%,#571177));background-image:-webkit-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-o-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-ms-linear-gradient(top,#642A8E 0,#571177 100%);background-image:linear-gradient(to bottom,#642A8E 0,#571177 100%)}
+.mainTextColor{color:#333}
+.clanok h1,.listingtitle,.mainButtonBackground,.navbar-default,.ponuka_title_in{background:#642A8E;background:-moz-linear-gradient(top,#642A8E 0,#571177 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#642A8E),color-stop(100%,#571177));background:-webkit-linear-gradient(top,#642A8E 0,#571177 100%);background:-o-linear-gradient(top,#642A8E 0,#571177 100%);background:-ms-linear-gradient(top,#642A8E 0,#571177 100%);background:linear-gradient(to bottom,#642A8E 0,#571177 100%)}
+@media (min-width:769px){
+.dropdown-menu .active>a,.dropdown-menu .active>a:hover,.dropdown-menu li>a:hover{background:0 0;color:#642A8E}
+.navbar-default .navbar-nav .dropdown-menu>li>a.active{background:#E4E4E4;color:#642A8E}
+}
+@media (max-width:768px){
+.dropdown-menu .active>a,.dropdown-menu .active>a:hover,.dropdown-menu li>a:hover,.navbar-default .navbar-nav .open .dropdown-menu>li>a.active{color:#642A8E}
+}
+.advert_submit input,.clanok form.formular input.submit,.hypo_template .submit,.searchTop .slctr_submit .submit{background-color:#642A8E;background-image:-moz-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#642A8E),color-stop(100%,#571177));background-image:-webkit-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-o-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-ms-linear-gradient(top,#642A8E 0,#571177 100%);background-image:linear-gradient(to bottom,#642A8E 0,#571177 100%)}
+.advert_submit input:hover,.hypo_template .submit:hover,.searchTop .slctr_submit .submit:hover{background-color:#797979;text-shadow:0 -1px 0 rgba(0,0,0,.25);color:#fff;box-shadow:0 1px 1px rgba(98,98,98,.6)}
+.boxicons_title,.detail_inzeratu,.detail_m,.kontakt_title,.mak_title,.ponuka_m,.price_title,.projekty_desc_title{background-color:#642A8E;background-image:#642A8E;background-image:-moz-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#642A8E),color-stop(100%,#571177));background-image:-webkit-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-o-linear-gradient(top,#642A8E 0,#571177 100%);background-image:-ms-linear-gradient(top,#642A8E 0,#571177 100%);background-image:linear-gradient(to bottom,#642A8E 0,#571177 100%)}
+.detail_inzeratu:hover,.detail_m:hover,.ponuka_m:hover{background-color:#440E62}
+.listingtitle{border:1px dashed #EAEAEA}
+.boxicons a,.javo_somw_info a.poslat,.javo_somw_list a:focus,.javo_somw_list a:hover,.listing_info .price span.item_value,.mak_title_name,.mak_value,.makleritem .m_name,.name_ponuka,.stranky a,h2.pobocka_subtitle{color:#642A8E}
+.detail_documents a,.javo_somw_info a.poslat:hover,.stranky a:hover,a.gmap_info_price,a:focus,a:hover{color:#571177}
+.copyright a{color:#C792ED}
+.copyright a:hover{color:#9A5CB5}
+.ponuka_title{background:0 0}
+.clanok h1,.listing_agents .listingtitle,.ponuka_title_in{border:1px solid #571177;color:#fff;text-shadow:none}
+.boxicons_title,.kontakt_title,.mak_title,.orderer label,.projekty_desc_title{color:#fff}
+span.lastCrumb a span{color:#571177}
+.pobocka_links a{background:#642A8E}

@@ -1,0 +1,1 @@
+function delete_account() {alert($("#delete_id").val());}
