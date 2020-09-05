@@ -219,8 +219,6 @@ class struct extends db {
                 $this->alterTableAdd($tableName, "acc_alias", "varchar", 50, "acc_surName", __FILE__, __LINE__);
 
                 $aValues    =   array();
-                $aValues[]  = array("acc_login"=>'zolo', "acc_pass"=>md5('PROPERTY123!'), "acc_name"=>'Zoltán', "acc_surName"=>'Tatay', "acc_email"=>'zolo71@hotmail.com', "acc_mobil"=>'+421 948101818' , "acc_admin"=>1,  "acc_block"=>0);
-                $aValues[]  = array("acc_login"=>'rasto', "acc_pass"=>md5('celula'), "acc_name"=>'Rastislav', "acc_surName"=>'Rehák', "acc_email"=>'rasto@abnet.sk', "acc_mobil"=>'+421 904 478738' , "acc_admin"=>1,  "acc_block"=>0);
                 $this->insert($aStruct, $aValues, true, __FILE__, __LINE__, true);
         }
 
