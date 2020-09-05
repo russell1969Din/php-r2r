@@ -1,6 +1,6 @@
 <?php
-        $dbLocal        = "46.229.230.119";
-        $dbLogin        = "op024700";
+        $dbLocal        = "xxxxxxxxxxxx";
+        $dbLogin        = "xxxxxxxxxxxx";
         $dbName         = "xxxxxxxxxxxx";
         $dbPass         = "xxxxxxxxxxx";
         $dbPort         = "";
